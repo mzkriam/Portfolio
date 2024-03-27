@@ -1,0 +1,221 @@
+@media (min-width: 1200px) {
+.effect-3 {
+        margin-left: -200px;
+        top: -140px;
+    }
+}
+@media (max-width: 1200px) {  
+    nav .nav-links {
+        display: flex;
+    }
+    nav .hamburger-btn {
+        display: none;
+    }
+    .home-section .row {
+        align-content: space-evenly;
+    }
+    .home-section .full-screen {
+        padding: 100px 0;
+    }
+    .home-section .full-screen .home-text,
+    .home-section .full-screen .home-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }   
+    .home-section .full-screen .home-text {
+        order: 2;        
+        text-align: center;
+    }
+    .home-section .full-screen .home-img .img-box {
+        max-width: 350px;
+        margin-bottom: 10px;
+    }
+    .home-section .full-screen .home-text h2 {
+        font-size: 40px;
+        display: inline-block;        
+    }     
+    @keyframes control-width {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 545px;
+        }
+    }
+    .effect-1{
+        bottom: 20%;
+    }
+    .effect-4{
+        left: 10%;
+    }  
+    .effect-3 {
+        margin-left: -200px;
+        top: -140px;
+    }
+}
+@media (max-width: 991px) {     
+    nav .nav-links {
+        display: none;
+    }
+    nav .hamburger-btn {
+        display: flex;
+    }
+    .portfolio-section .portfolio-item,
+    .service-section .service-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }    
+    .home-section .full-screen .home-text h2 {
+        font-size: 30px;
+    }    
+    .effect-2 {
+        left: 11%
+    }
+    @keyframes control-width {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 410px;
+        }
+    }
+}
+@media (max-width: 768px) {      
+    .home-section .full-screen .home-img .img-box {
+        max-width: 300px;
+    }
+    .home-section .full-screen .home-text h2 {
+        font-size: 25px;
+    }
+    .home-section .home-text h1 {
+        font-size: 20px;
+    }
+    @keyframes control-width {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 340px;
+        }
+    }
+    .contact-section .contact-item,
+    .contact-section .contact-form .w-50,
+    .portfolio-popup .pp-details .pp-project-details .description,
+    .portfolio-popup .pp-details .pp-project-details .info,
+    .portfolio-section .portfolio-item,
+    .service-section .service-item,
+    .about-section .skills .skill-item ,
+    .about-section .about-img ,
+    .about-section .about-info ,
+    .home-section .full-screen .home-text,
+    .home-section .full-screen .home-img
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }   
+    .home-section .full-screen .home-text{
+        order: 2;
+        text-align: center;
+    }
+    .home-section .full-screen .home-img .img-box{
+        max-width: 350px;
+    }     
+    .effect-4{
+        left: 9%;
+    }                
+    /* start about section */
+    .about-section .about-img{  
+        padding-bottom: 30px;          
+    }
+    .contact-section .contact-form .submit-btn,
+    .about-section .about-info {
+        text-align: center;
+    }
+    .about-section .timeline .timeline-item{
+        margin-bottom: 40px;
+    }
+    .about-section .timeline .timeline-item:last-child {
+        margin-bottom: 0px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) {
+        padding-right: 15px;
+        text-align: left;
+        padding-left: 75px;
+    }
+    .about-section .timeline .timeline-item:nth-child(even) {
+        padding-left: 75px;
+        padding-right: 15px;
+    }
+    .about-section .timeline:before{
+        left: 35px
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .icon{
+        right: auto;
+        left: -60px;
+    }
+    .about-section .timeline .timeline-item:nth-child(even) .icon {
+        left: -60px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner:before {
+        left: -30px;
+        }
+    .about-section .timeline .timeline-item:nth-child(even) .timeline-item-inner:before {
+        left: -30px;
+        margin: auto;
+    }
+    /* start portfolio section */   
+    .portfolio-popup .pp-details .pp-project-details .description{
+        margin-bottom: 10px;
+    }
+    
+}
+@media (max-width:480px){
+    nav {
+        position: absolute;
+    }
+    .style-switcher{
+        position: absolute;
+    }
+    .effect-1 {
+        bottom: 7%;
+    }
+    .effect-2 {
+        left: 8%;
+        bottom: 8%;
+    }
+    .home-section .full-screen .home-img .img-box {
+        max-width: 260px;
+    }    
+    .home-section .home-text h1 {
+        font-size: 15px;
+    }
+    @keyframes control-width {
+        from {
+            width: 0;
+        }
+        to {
+            width: 340px;
+        }
+    }
+    .effect-3 {
+        margin-left: -130px;
+        top: -140px
+    }
+    .effect-4 {
+        top: 14%;
+        left: 7%;
+    }
+    .effect-5 {
+        top: 15%;
+        right: 7%;
+
+    }
+    /* start portfolio section */
+    .portfolio-section .portfolio-filter {
+        display: flex;
+        flex-direction: column;
+    }
+}
